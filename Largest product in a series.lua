@@ -85,7 +85,6 @@ block = {
 -- another way
 
 
-local sum_map = {}
 local buffer = {} -- store the current 4 digits here
 buffer["size"] = 13
 
