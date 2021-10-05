@@ -1,5 +1,10 @@
 
 function isPrime(n)
+    -- instead of adding these check just start after 5 !
+    -- if n == 3 or n == 2 or n == 5 then
+    --     return true
+    -- end
+
     -- these % filters shreaded another 50 ms !
     if n%3 == 0 then
         return false
@@ -45,8 +50,8 @@ end
 
 -- no of iterations => 10000 - 2 + 1 => 9999 (coz lua)
 -- so we already have 2 vals in primes table so + 9999 values = 10001 th value !
-last = 3
-for i = 2, 10000 do
+last = 5
+for i = 3, 10000 do
     -- starting from where we left!
     -- j=primes[#primes] + 2
     j=last + 2

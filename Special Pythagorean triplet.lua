@@ -50,3 +50,14 @@ while a < 1000 do
     end
     a = a + 1
 end
+
+
+--[[
+performance
+
+real    10m26.388s
+user    5m23.099s
+sys     4m58.427s
+
+read: https://projecteuler.net/overview=009
+]]
